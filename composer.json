@@ -1,13 +1,12 @@
 {
-  "name"        : "shelob9/site",
-  "description" : "site.",
+  "name"        : "shelob9/joshpress",
+  "description" : "Make JoshPress.net",
   "authors"     : [
     {
       "name"    : "Josh Pollock",
       "email"   : "Josh@joshpress.net",
       "homepage": "http://joshpress.net/"
-    },
-
+    }
   ],
   "type"        : "project",
   "minimum-stability": "dev",
@@ -52,8 +51,8 @@
   "extra"       : {
     "wordpress-install-dir": "public_html/wp",
     "installer-paths": {
-      "public_html/site-content/plugins/{$name}/" : ["type:wordpress-plugin"],
-      "public_html/site-content/themes/{$name}/"  : ["type:wordpress-theme"]
+      "public_html/joshpress-content/plugins/{$name}/" : ["type:wordpress-plugin"],
+      "public_html/joshpress-content/themes/{$name}/"  : ["type:wordpress-theme"]
     }
   }
 }

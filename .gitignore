@@ -1,6 +1,7 @@
-public_html/site-content/plugins
-public_html/site-content/themes
+public_html/joshpress-content/plugins
+public_html/joshpress-content/themes
 public_html/wp
 vendor
 production-config.php
 debug.log
+application/language/*

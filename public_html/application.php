@@ -1,5 +1,5 @@
 <?php
-define( 'CONTENT_DIR', '/site-content' );
+define( 'CONTENT_DIR', '/joshpress-content' );
 define( 'WP_CONTENT_DIR', WP_WEBROOT_DIR . CONTENT_DIR );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . CONTENT_DIR );
 define('DB_CHARSET', 'utf8');

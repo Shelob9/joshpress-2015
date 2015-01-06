@@ -1,11 +1,11 @@
-Josh's WordPress VVV Site Starter
+JoshPress 2015
 
 
 ### Setup Local Dev
 cd into your VVV's www dir
-git clone https://github.com/shelob9/wp-vvv-start.git site
-Find and Replace "site" and change to whatever you want.
-cd site
+git clone https://github.com/shelob9/wp-vvv-start.git joshpress
+
+cd joshpress
 composer update
 vagrant provision
 vagrant halt
